@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.SectionTwo = new System.Windows.Forms.TextBox();
-            this.SectionTwoExplain = new System.Windows.Forms.TextBox();
             this.Title = new System.Windows.Forms.TextBox();
+            this.SectionTwoExplain = new System.Windows.Forms.TextBox();
+            this.SectionTwo = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -43,7 +43,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.61017F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.38983F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 202F));
             this.tableLayoutPanel1.Controls.Add(this.Title, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.SectionTwoExplain, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.SectionTwo, 0, 1);
@@ -59,18 +59,18 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(803, 610);
             this.tableLayoutPanel1.TabIndex = 10;
             // 
-            // SectionTwo
+            // Title
             // 
-            this.SectionTwo.BackColor = System.Drawing.SystemColors.Menu;
-            this.SectionTwo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tableLayoutPanel1.SetColumnSpan(this.SectionTwo, 2);
-            this.SectionTwo.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SectionTwo.Location = new System.Drawing.Point(3, 48);
-            this.SectionTwo.Name = "SectionTwo";
-            this.SectionTwo.Size = new System.Drawing.Size(343, 31);
-            this.SectionTwo.TabIndex = 7;
-            this.SectionTwo.TabStop = false;
-            this.SectionTwo.Text = "Interacting with Data";
+            this.Title.BackColor = System.Drawing.SystemColors.Menu;
+            this.Title.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.Title, 2);
+            this.Title.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title.Location = new System.Drawing.Point(3, 3);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(580, 41);
+            this.Title.TabIndex = 0;
+            this.Title.TabStop = false;
+            this.Title.Text = "Getting Started - LAGUI Guide";
             // 
             // SectionTwoExplain
             // 
@@ -86,18 +86,18 @@
             this.SectionTwoExplain.TabStop = false;
             this.SectionTwoExplain.Text = resources.GetString("SectionTwoExplain.Text");
             // 
-            // Title
+            // SectionTwo
             // 
-            this.Title.BackColor = System.Drawing.SystemColors.Menu;
-            this.Title.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tableLayoutPanel1.SetColumnSpan(this.Title, 2);
-            this.Title.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Title.Location = new System.Drawing.Point(3, 3);
-            this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(580, 41);
-            this.Title.TabIndex = 0;
-            this.Title.TabStop = false;
-            this.Title.Text = "Getting Started - LAGUI Guide";
+            this.SectionTwo.BackColor = System.Drawing.SystemColors.Menu;
+            this.SectionTwo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.SectionTwo, 2);
+            this.SectionTwo.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SectionTwo.Location = new System.Drawing.Point(3, 48);
+            this.SectionTwo.Name = "SectionTwo";
+            this.SectionTwo.Size = new System.Drawing.Size(343, 31);
+            this.SectionTwo.TabIndex = 7;
+            this.SectionTwo.TabStop = false;
+            this.SectionTwo.Text = "Interacting with Data";
             // 
             // pictureBox4
             // 

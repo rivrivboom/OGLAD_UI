@@ -113,7 +113,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::OGLAD_UI.Properties.Resources.Capture13;
-            this.pictureBox2.Location = new System.Drawing.Point(393, 209);
+            this.pictureBox2.Location = new System.Drawing.Point(392, 209);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(380, 180);
             this.pictureBox2.TabIndex = 11;

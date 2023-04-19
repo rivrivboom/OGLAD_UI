@@ -83,7 +83,7 @@
             this.SectionTwoExplain.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tableLayoutPanel1.SetColumnSpan(this.SectionTwoExplain, 2);
             this.SectionTwoExplain.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SectionTwoExplain.Location = new System.Drawing.Point(3, 87);
+            this.SectionTwoExplain.Location = new System.Drawing.Point(3, 86);
             this.SectionTwoExplain.Multiline = true;
             this.SectionTwoExplain.Name = "SectionTwoExplain";
             this.SectionTwoExplain.Size = new System.Drawing.Size(745, 59);
@@ -96,7 +96,7 @@
             this.SectionTwo.BackColor = System.Drawing.SystemColors.Menu;
             this.SectionTwo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.SectionTwo.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SectionTwo.Location = new System.Drawing.Point(3, 47);
+            this.SectionTwo.Location = new System.Drawing.Point(3, 46);
             this.SectionTwo.Name = "SectionTwo";
             this.SectionTwo.Size = new System.Drawing.Size(188, 31);
             this.SectionTwo.TabIndex = 7;
@@ -109,7 +109,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tableLayoutPanel1.SetColumnSpan(this.textBox1, 2);
             this.textBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(3, 152);
+            this.textBox1.Location = new System.Drawing.Point(3, 151);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(517, 48);
@@ -121,7 +121,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OGLAD_UI.Properties.Resources.Screenshot_2022_06_07_210929;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 206);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 205);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(213, 195);
             this.pictureBox1.TabIndex = 10;
@@ -130,7 +130,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::OGLAD_UI.Properties.Resources.Screenshot_2022_06_07_214633;
-            this.pictureBox2.Location = new System.Drawing.Point(265, 206);
+            this.pictureBox2.Location = new System.Drawing.Point(265, 205);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(304, 180);
             this.pictureBox2.TabIndex = 11;
