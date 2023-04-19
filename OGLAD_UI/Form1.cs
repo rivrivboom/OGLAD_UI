@@ -763,7 +763,7 @@ namespace OGLAD_UI
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string filePath = openFileDialog.FileName;
-                string path = Path.Combine(Directory.GetParent(Directory.GetParent(Application.StartupPath).FullName).FullName, "Resources", "deviceLibrary.csv");
+                string path = Path.Combine(Directory.GetParent(Directory.GetParent(Application.StartupPath).FullName).FullName,"Rivera", "Setup1", "Resources", "deviceLibrary.csv");
 
                 try
                 {

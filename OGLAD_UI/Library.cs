@@ -37,7 +37,7 @@ namespace OGLAD_UI
 
         private void loadDeviceData()
         {
-            string filePath = Path.Combine(Directory.GetParent(Directory.GetParent(Application.StartupPath).FullName).FullName, "Resources", "deviceLibrary.csv");
+            string filePath = Path.Combine(Directory.GetParent(Directory.GetParent(Application.StartupPath).FullName).FullName, "Rivera", "Setup1", "Resources", "deviceLibrary.csv");
             if (File.Exists(filePath))
             {
                 using (var reader = new StreamReader(filePath))
