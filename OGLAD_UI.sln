@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGLAD_UI", "OGLAD_UI\OGLAD_
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Analyzer_Ico", "Analyzer_Ico\Analyzer_Ico.vdproj", "{79A26901-3B3A-417D-A742-B1988F41E334}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{3FB6CA0D-4643-4455-A099-F31F44EB1A2C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +19,6 @@ Global
 		{3D742BAB-4EC6-4801-AF5A-A5A93ED0667C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{79A26901-3B3A-417D-A742-B1988F41E334}.Debug|Any CPU.ActiveCfg = Debug
 		{79A26901-3B3A-417D-A742-B1988F41E334}.Release|Any CPU.ActiveCfg = Release
-		{3FB6CA0D-4643-4455-A099-F31F44EB1A2C}.Debug|Any CPU.ActiveCfg = Debug
-		{3FB6CA0D-4643-4455-A099-F31F44EB1A2C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
